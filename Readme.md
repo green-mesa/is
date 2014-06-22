@@ -1,13 +1,28 @@
 # is
 
-  is is a type checking component
+  is is a type checking component, forked from manuelstofer/is
 
 ## Installation
 
-```
-$ component install manuelstofer/is
+Browserify/NPM
+
+```sh
+    $ npm install --save gm-is
 ```
 
+```js
+  var is = require('gm-is');
+```
+
+Component
+
+```sh
+    $ component install green-mesa/is
+```
+
+```js
+  var is = require('is');
+```
 ## API
 
 - is.array
